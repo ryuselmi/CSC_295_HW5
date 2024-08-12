@@ -1,1 +1,9 @@
 # CSC_295_HW5
+
+
+
+In this project, I implemented a method to check if a given expression has balanced parentheses using the stack data structure. The main goal was to ensure that every opening parenthesis in the expression has a corresponding closing parenthesis and that they appear in the correct order. The method isBalanced iterates through each character of the string, pushing opening parentheses onto the stack and popping them when a matching closing parenthesis is encountered. By the end of the process, if the stack is empty, it indicates that the parentheses in the expression are balanced; otherwise, they are not.
+
+One challenge I encountered was correctly handling cases with different types of parentheses (round, square, and curly) and ensuring that they are matched properly. Initially, it was tricky to manage the various combinations of opening and closing parentheses and guarantee that the method would correctly identify when they were not balanced. To overcome this, I used a stack to keep track of the opening parentheses as they appeared in the expression. This allowed me to easily check the last opened parenthesis against each closing parenthesis, ensuring they matched and were correctly nested.
+
+Another challenge was accounting for edge cases, such as an empty string or strings with no parentheses at all. It was important to ensure that the method correctly identified these scenarios as balanced. By carefully testing different expressions, including those with mixed types of parentheses and those with improper nesting, I was able to refine the method to handle all possible cases effectively. Overall, the project helped reinforce my understanding of how the stack data structure can be applied to solve problems involving nested and sequentially dependent elements.
